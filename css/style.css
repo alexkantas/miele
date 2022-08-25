@@ -1,0 +1,375 @@
+body {
+    background-image: url(../img/1.jpg);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: initial;
+    background-color: rgb(209, 209, 209);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Open Sans", "Arial";
+    font-size: 15px;
+}
+
+.header-big {
+    width: 1140px;
+    background-color: #fff;
+    min-height: 120px;
+    padding: 10px 20px 0 20px;
+}
+
+.header-big img.logo {
+    max-width: 375px;
+    max-height: 90px;
+    padding: 0 20px;
+}
+
+.middle-area {
+    line-height: 3;
+    padding: 0 50px;
+}
+
+.middle-area .links-area {
+    display: flex;
+}
+
+.middle-area>.row a {
+    color: #585858;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.middle-area>.row>.form-inline>.form-group {
+    width: 100%;
+}
+
+.middle-area>.row>.form-inline>.form-group>.input-group {
+    width: 95%;
+}
+
+.contact-area {
+    line-height: 2;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.contact-area .contact-info {
+    font-weight: 600;
+    color: #7f7f7f;
+}
+
+.contact-area .contact-mainphone {
+    font-weight: 600;
+    color: #585858;
+    font-size: 20px;
+    border-bottom: 2px #b8babc solid;
+}
+
+.contact-area .opening-hours {
+    font-size: 12px;
+    color: #7f7f7f;
+    padding-bottom: 5px;
+}
+
+
+nav {
+    width: 1140px;
+    margin: 0 auto;
+    height: 67px;
+    margin-bottom: 0px !important;
+}
+
+.navbar-default {
+    background-color: #c71f28;
+    padding-bottom: 5px;
+}
+
+nav .nav-category-logo {
+    height: 35px;
+    margin-right: 7px;
+    float: left;
+}
+
+nav .nav-category-title {
+    color: #fff;
+    float: right;
+}
+
+nav .open .dropdown-toggle {
+    display: flex;
+    color: #000;
+}
+
+.dropdown.open .nav-category-title {
+    color: darkred;
+}
+
+.dropdown.open>a {
+    background-color: darkslategray !important;
+}
+
+.main-area {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    background: #fff;
+}
+
+.carousel {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.red-box-area {
+    background: #990000;
+    margin: 20px 10px;
+    padding: 30px 40px;
+}
+
+.red-box-area .fa-circle {
+    color: #c71f28;
+}
+
+.red-box-area .fa-lg {
+    font-size: 2em;
+}
+
+.red-box-area .red-box-title {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+}
+
+.red-box-area h1 {
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+.red-box-area h1>small {
+    display: block;
+    color: #ffffe0;
+    text-transform: lowercase;
+}
+
+.site-exploration {
+    padding-top: 10px;
+}
+
+.news-tile {
+    background-color: rgb(209, 209, 209);
+    background-image: url(../img/homepage/newsi.png);
+    position: relative;
+    width: 440px;
+    height: 290px;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.news-tile:hover {
+    box-shadow: 0px 0px 30px 0px rgba(68, 68, 68, 0.67);
+}
+
+.news-tile-title {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    background: rgba(68, 68, 68, 0.8);
+}
+
+
+.extra-info-tile {
+    background-color: rgb(209, 209, 209);
+    ;
+    background-image: url(../img/homepage/warrantyi.jpg);
+    position: relative;
+    width: 440px;
+    height: 290px;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.extra-info-tile:hover {
+    box-shadow: 0px 0px 30px 0px rgba(153, 0, 0, 0.67);
+}
+
+.extra-info-tile-title {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    background: rgba(153, 0, 0, 0.8);
+}
+
+
+.news-tile-title>a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.news-tile-title>a>h2 {
+    color: #fff;
+}
+
+.extra-info-tile-title>a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.extra-info-tile-title>a>h2 {
+    color: #fff;
+}
+
+.page-header {
+    padding-left: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.products-section {
+    padding: 0 20px;
+}
+
+.product-category {
+    width: 256px;
+    height: 218px;
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+.product-category-image {
+    width: 256px;
+    height: 218px;
+}
+
+.product-category-title {
+    text-align: center;
+    width: 100%;
+    height: 27%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: #000;
+    opacity: 0.65;
+    transition-property: height, opacity;
+    transition-duration: 0.5s;
+}
+
+.product-category:hover .product-category-title {
+    height: 37%;
+    opacity: 0.9;
+}
+
+.products-section a:hover,
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.product-category-title>h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.stores-section {
+    padding: 0 20px;
+}
+
+.stores-section ul {
+    list-style: none;
+    line-height: 3.2em;
+}
+
+.stores-section .jumbotron {
+    border-radius: 15px;
+    padding: 18px 18px 1px 18px;
+    text-align: left;
+}
+
+.stores-section .jumbotron li>a>h4 {
+    display: inline;
+    color: #585858;
+    margin-left: 1em;
+}
+
+.stores-section .jumbotron li>a {
+    color: #585858;
+}
+
+.stores-section .jumbotron a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.about-us-text {
+    padding: 1px 15px 50px 15px;
+    color: #585858;
+}
+
+footer {
+    width: 1140px !important;
+    padding: 20px;
+    background: #585858;
+    border-top: 10px #848484 solid;
+}
+
+footer img.logo-footer {
+    max-width: 375px;
+    max-height: 90px;
+    padding-left: 25px;
+}
+
+footer .list-title {
+    font-size: 14px;
+    color: #b8babc;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+    color: #fff;
+}
+
+footer li>a {
+    color: #fff;
+    text-transform: none;
+    font-size: 14px;
+}
+
+footer li>a:hover {
+    color: #fff;
+}
+
+footer .copyright-info {
+    margin-top: 15px;
+
+    border-top: 1px #4b4b4b solid;
+    line-height: 3;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1220px) {
+    body {
+        background-image: none;
+        background-color: white;
+    }
+}
